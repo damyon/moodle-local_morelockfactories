@@ -28,5 +28,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->version  = 2014041400;
-$plugin->requires = 2014012400.00;  // Requires this Moodle version
+$plugin->requires = 2014041100;  // Requires this Moodle version
 $plugin->component= 'local_morelockfactories';
+$plugin->maturity = MATURITY_STABLE;
+$plugin->release = '2014041400';
+
